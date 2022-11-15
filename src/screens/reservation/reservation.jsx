@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const Reservation = () => {
   return (
     <div className="h-screen w-full bg-cover bg-center flex" style={{ backgroundImage: `url(${Rbg})` }}>
-      <div className="bg-[#2a263dd1] absolute h-full w-full"></div>
+      <div className="bg-[#2a263dd1] absolute h-screen w-full"></div>
       <div className="z-50 lg:ml-20 lg:mt-20 md:ml-20 md:mt-20 ml-5 mt-5 h-7 w-7">
         <Link to="/">
           <img className="lg:h-10 h-7" src={Back} alt="" />

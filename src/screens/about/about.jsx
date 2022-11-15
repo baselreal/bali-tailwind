@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const About = () => {
   return (
     <section className="h-screen w-full bg-cover bg-center flex" style={{ backgroundImage: `url(${Bg1})` }}>
-      <div className="bg-[#2a263dd1] absolute h-full w-full"></div>
+      <div className="bg-[#2a263dd1] absolute h-screen w-full"></div>
       <div className="z-10 lg:w-45 md:w-35 lg:ml-20 lg:mt-20 md:ml-20 md:mt-20 ml-5 mt-10">
         <Link to="/">
           <img className="lg:h-10 md:h-10 h-5" src={Back} alt="" />
